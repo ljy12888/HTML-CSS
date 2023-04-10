@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex 연습</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            border: 5px solid #000;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 20px;
+            background-color: azure
+        }
+        .card{
+            border-radius: 20px;
+            margin: auto;
+            width: 210px;
+            height: 200px;
+            background-color: beige;
+        }
+        .imges{
+            height: 70%;
+            
+            background-color: cadetblue;
+            background-image: url(https://blog.kakaocdn.net/dn/0mySg/btqCUccOGVk/nQ68nZiNKoIEGNJkooELF1/img.jpg);
+            background-size:contain;
+            background-repeat: no-repeat;
+            
+        }
+        img{
+            width: 100%;
+            height: 65%;
+            border-radius: 20px 20px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="card">
+           <div class="imges">image1</div>
+           <div>title1</div>
+       </div>
+       
+       <div class="card">
+           <div class="imges">image1</div>
+           <div>title1</div>
+       </div>
+       <div class="card">
+           <img src="https://cdn.pixabay.com/photo/2018/11/14/13/05/mont-hwan-3815215__480.jpg">
+           <div>title1</div>
+       </div>
+       <div class="card">
+           <img src="http://www.urbanbrush.net/web/wp-content/uploads/edd/2020/02/urbanbrush-20200227023608426223.jpg">
+           <div>title1</div>
+       </div>
+        
+    </div>
+</body>
+</html>

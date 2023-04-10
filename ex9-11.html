@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p{color: beige;
+            float: left;
+            }
+        
+        div{
+            background-color: red;
+            width: 300px;
+            height: 100px;
+            animation: mymove 4s infinite;
+        }
+        
+       @keyframes mymove{
+            0%{background-color: violet;
+               transform: scale(1);
+                transform-origin: left top;
+               }
+            
+            _25%{background-color: blue;
+                ;
+                transform: scaleX(3)}
+            
+             _50%{background-color: green;
+                transform-origin: top ,right;
+                transform: scaleY(3)}
+            
+             _75%{background-color: black;
+                transform-origin: bottom;
+                transform: scaleX(1)}
+           
+            
+            
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation</h1>
+    <p>Animation is my pleasur.<br>
+    Animationwork hives me great pleasure</p>
+     <div></div>
+    
+      
+</body>
+</html>

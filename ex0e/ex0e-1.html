@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html,body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 100%
+                
+        }
+        .main{
+            display: flex;
+            flex: 1;
+        }
+        .header{
+            background-color: darkgray;
+            margin: 10px ;
+            border-radius: 5px;
+            height: 50px;
+                        
+        }
+        .nav{
+            background-color: burlywood;
+            flex: 1;
+            margin: 10px ;
+            border-radius: 5px;
+        }
+        .aticle{
+            background-color: beige;
+            margin: 10px ;
+            border-radius: 5px;
+        }
+        .footer{
+            background-color: aliceblue;
+            margin: 10px ;
+            border-radius: 5px;
+            height: 50px;
+        }
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+        tr,td{
+            border: 1px solid
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="main">
+            <div class="nav">nav
+               <br><br>
+                <ul type="none">
+                    <li><a href="">메인</a></li>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+            <div class="aticle">aticle
+               <br><br><br>
+                <table>
+                    <tr>
+                        <td>번호</td>
+                        <td>아이디</td>
+                        <td>이름</td>
+                        <td>연락처</td>
+                        <td>이메일</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>아이디1</td>
+                        <td>이름1</td>
+                        <td>010-0000-0001</td>
+                        <td>a1@b.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>아이디2</td>
+                        <td>이름2</td>
+                        <td>010-0000-0002</td>
+                        <td>a2@b.com</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>아이디3</td>
+                        <td>이름3</td>
+                        <td>010-0000-0003</td>
+                        <td>a3@b.com</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body></html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>정규식</title>
+</head>
+<body>
+     <form action="myform.html" name="ok1">
+        <lavel for="fname">First name :</lavel>
+        <input type="text" id="fname"  pattern="[0-9](의)[0-3]"><br>
+        <lavel for="lname">Last name :</lavel>
+        <input type="text" id="lname"  pattern="[가-핳]{2,4}"><br>
+        <button type="submit">제출버튼</button>
+        <button type="reset">리셋버튼</button>
+    </form>
+    <form action="myform.html" name="ok2">
+        <lavel for="fname">First name :</lavel>
+        <input type="text" id="fname" required><br>
+        <lavel for="lname">Last name :</lavel>
+        <input type="text" id="lname" required><br>
+        <button type="submit">제출버튼</button>
+        <button type="reset">리셋버튼</button>
+    </form>
+</body>
+</html>
