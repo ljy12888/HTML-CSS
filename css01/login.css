@@ -1,0 +1,23 @@
+@import "./global.css"
+
+        
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #120522;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+.login-title{
+    text-align: center;
+}
+.login-title__maintext{
+    font-size: 2.5rem;
+    color: var(--purple);
+}
+.login-title__subtext{
+    font-size: 0.9rem;
+    font-weight: 100;
+}
